@@ -3,12 +3,21 @@
 }
 
 .banner {
-  background-image: url(img/banner-bg.jpg);
-  background-size: cover;
   width: 100vw;
   height: 500px;
-  background-position: top;
   margin-bottom: 80px;
+  position: relative;
+}
+
+.banner-image {
+  background-image: url(img/banner-bg.jpg);
+  filter: brightness(80%);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: top;
+  position: absolute;
+  z-index: -1;
 }
 
 h1 {
@@ -17,6 +26,7 @@ h1 {
   padding-top: 205px;
   font-weight: 900;
   font-size: 64px;
+  display: inline-block;
 }
 
 .reserved-symbol {
@@ -39,14 +49,8 @@ h1 {
   width: 30%;
 }
 
-/* img {
-  width: 100vw;
-  padding-top: 20px;
-  padding-bottom: 20px;
-} */
-
 .about-app-img {
-  height: 500px;
+  height: 300px;
   overflow: hidden;
   position: relative;
 }
@@ -75,7 +79,7 @@ h4 {
 }
 
 .phone-screen {
-  width: 100%;
+  width: 85%;
 }
 
 .icons-position {
@@ -85,5 +89,116 @@ h4 {
 
 .icon {
   width: 35%;
-  margin-left: 12%;
+}
+
+.phone-screen2 {
+  width: 105%;
+}
+
+.icons-position2 {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.icon-inline {
+  width: 110%;
+  margin-bottom: 35px;
+  vertical-align: top;
+}
+
+.text-inline {
+  text-align: justify;
+  margin-left: -15px;
+}
+
+.text-inline h4 {
+  text-align: left;
+}
+
+div p {
+  font-weight: 640;
+}
+
+.android-padding {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.banner-bottom {
+  width: 100vw;
+  height: 300px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.banner-bottom-image {
+  filter: brightness(80%);
+  background-image: url(img/runner-female-blurred.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.banner-bottom div h1 {
+  color: white;
+  text-shadow: 0px 2px grey;
+  padding-top: 110px;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.try-premium {
+  color: white;
+  background-color: #f50057;
+  border-radius: 28px;
+  font-size: 20px;
+  font-weight: 100;
+  width: 240px;
+  height: 54px;
+  margin-top: 15px;
+}
+
+.try-premium:hover {
+  background-color: #ad003d;
+}
+
+.row {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.social-media-links {
+  /* display: inline-block; */
+}
+
+.social-media-bubble {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+.social-media-bubble img {
+  padding-top: 11px;
+}
+
+p {
+  color: grey;
+}
+
+.runners-pro-padding {
+  margin-bottom: 20px;
+}
+
+p a {
+  color: inherit;
+}
+
+.grey-bg {
+  background-color: #f1f1f1;
+  width: 100vw;
 }
