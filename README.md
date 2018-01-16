@@ -1,0 +1,1 @@
+This is a webpage that changes the banner heading "Runners Pro" to a promo code value grabbed from a portion of the URL link provided to the customer. For the purpose of this learning experience, a value can be manually typed in the URL and jQuery changes the text accordingly.

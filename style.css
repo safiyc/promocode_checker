@@ -1,21 +1,21 @@
-.ref {
+/* .ref {
   position:absolute;
   opacity:.9;
   max-width:100%;
   //width:100%;
   z-index:9999;
   display: none;
-}
+} */
 
 .text-centered {
   text-align: center;
 }
 
 .banner {
-    background: url(img/banner-bg.jpg) no-repeat center top;
-    background-size: cover;
-    height: auto;
-    padding: 0 0 57px 0;
+  background: url(img/banner-bg.jpg) no-repeat center top;
+  background-size: cover;
+  height: auto;
+  padding: 0 0 57px 0;
 }
 
 @media screen and (min-width:737px){
@@ -24,7 +24,14 @@
   }
 }
 
-.banner-image {
+.banner {
+  width: 100vw;
+  height: 300px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+/* .banner-image {
   background-image: url(img/banner-bg.jpg);
   filter: brightness(80%);
   background-size: cover;
@@ -33,17 +40,18 @@
   background-position: top;
   position: absolute;
   z-index: -1;
-}
+} */
 
 .wrap h1 {
-    color: white;
-    text-shadow: 0px 3px grey;
-    font-size: 1.8em;
-    text-align: center;
-    padding: 61px 0 12px 0;
-    position: relative;
-    left: 9px;
-    letter-spacing: 1px;
+  color: white;
+  text-shadow: 0px 3px grey;
+  font-size: 1.8em;
+  text-align: center;
+  padding: 61px 0 12px 0;
+  /* margin: 0 2%; */
+  position: relative;
+  left: 0px;
+  letter-spacing: 1px;
 }
 
 @media screen and (min-width:737px){
@@ -56,10 +64,10 @@
 }
 
 .reserved-symbol {
-    font-size: .4em;
-    position: relative;
-    top: -17px;
-    left: -7px;
+  font-size: .4em;
+  position: relative;
+  top: -17px;
+  left: -7px;
 }
 
 @media screen and (min-width:737px){
@@ -176,9 +184,22 @@ div p {
   font-weight: 640;
 }
 
-.android-padding {
+/* .android-padding {
   margin-top: 30px;
   margin-bottom: 30px;
+} */
+
+/* .banner-bottom {
+  background: url(img/runner-female-blurred.jpg) no-repeat center top;
+  background-size: cover;
+  height: auto;
+  padding: 0 0 57px 0;
+} */
+
+@media screen and (min-width:737px){
+  .banner-bottom {
+    padding: 0 0 120px 0;
+  }
 }
 
 .banner-bottom {
