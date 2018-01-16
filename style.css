@@ -1,10 +1,10 @@
-.ref {
+/* .ref {
   position:absolute;
-  opacity:.5;
+  opacity:.9;
   max-width:100%;
   width:100%;
   z-index:9999;
-}
+} */
 
 .text-centered {
   text-align: center;
@@ -57,7 +57,7 @@ h1 {
   width: 30%;
 }
 
-.about-app-img {
+/* .about-app-img {
   height: 300px;
   overflow: hidden;
   position: relative;
@@ -68,10 +68,11 @@ h1 {
   width: 100vw;
   padding-top: 20px;
   padding-bottom: 20px;
-}
+} */
 
 .text-content {
-  padding: 2%;
+  /* padding: 2%; */
+  text-align: left;
 }
 
 h3 {
